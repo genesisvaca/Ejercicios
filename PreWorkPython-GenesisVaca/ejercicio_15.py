@@ -3,7 +3,7 @@ EJERCICIO 15
 CONVERSOR DE TIEMPO
 Escribe un programa que convierta un numero de minutos en horas y minutos. Por ejemplo, 145 minutos serian 2 horas y 25 minutos
 '''
-def time_converter(minutes):
+def time_converter(minutes):#paratrp
   hours = minutes // 60
   remainingMinutes = minutes % 60
   return hours, remainingMinutes
